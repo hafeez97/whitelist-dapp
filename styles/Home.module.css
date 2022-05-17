@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #001233;
+}
+
+.section{
+  background-image: url("http://gongmasternft.com/wp-content/uploads/2022/04/fakurian-design-5KJKcu6vkE0-unsplash-2048x1152-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px 30px 30px 30px;
+
+
+
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 70%;
+  height: 50%;
+  margin-left: 20%;
+}
+
+.title {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  margin: 2rem 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.description {
+  line-height: 1;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.button {
+  border-radius: 50px;
+  background-color: #fc4e03;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  width: 300px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .neonText {
+    color: #fff;
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+  }
+}
